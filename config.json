@@ -1,0 +1,20 @@
+{
+    "application": {
+        "environment": "local",
+        "debug": true
+    },
+    "discord": {
+        "token": "YOUR_TOKEN_HERE",
+        "owners": ["YOUR_ID_HERE"],
+        "testGuilds": ["YOUR_GUILD_ID_HERE"]
+    },
+    "database": {
+        "mongodb": {
+            "uri": "mongodb://127.0.0.1:27017",
+            "database": "DATABASE_NAME"
+        }
+    },
+    "http": {
+        "port": 80
+    }
+}
